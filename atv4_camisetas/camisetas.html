@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de Camisetas</h1>
+    <script src="script.js" defer></script>
+    <div>
+        <label for="camisetasGrandes">Insira a quantidade de camisetas grandes:</label>
+        <input type="text" id="camisetasGrandes">
+    </div>
+    <div>
+        <label for="camisetasMedias">Insira a quantidade de camisetas médias:</label>
+        <input type="number" id="camisetasMedias">
+    </div>
+    <div>
+        <label for="camisetasPequenas">Insira a quantidade de camisetas pequenas:</label>
+        <input type="number" id="camisetasPequenas">
+    </div>
+
+    <button onclick="calcularQuantidade()">Calcular</button>
+    <div id="valorArrecadado"></div>
+    <div id="valorGrande"></div>
+    <div id="valorMedia"></div>
+    <div id="valorPequena"></div>
+</body>
+</html>
